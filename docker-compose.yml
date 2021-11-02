@@ -1,0 +1,11 @@
+services:
+
+    dashboard:
+        build: .
+        command: python -m streamlit run Code/main.py
+        ports:
+        - '8501:8501'
+        volumes:
+            - ./Data:/Home/Data
+            - ./Code:/Home/Code
+        

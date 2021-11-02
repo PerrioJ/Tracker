@@ -1,0 +1,12 @@
+numpy
+pandas
+
+sqlalchemy
+
+streamlit
+
+plotly
+
+xlrd
+requests
+openfoodfacts
